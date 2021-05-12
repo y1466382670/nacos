@@ -1,6 +1,3 @@
-server:
-  port: 9999
-
 spring:
   application:
     name: nacos-provide
@@ -8,3 +5,7 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+      config:
+        file-extension: yaml
+        group: PROVIDE_GROUP
+        prefix: ${spring.application.name}

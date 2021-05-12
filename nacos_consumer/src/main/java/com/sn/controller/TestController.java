@@ -21,6 +21,7 @@ public class TestController {
 
     @GetMapping("/consumer")
     public String test1() {
+        System.out.println("11111111111111111111111111111111111111111");
         return restTemplate.getForObject("http://nacos-provide/helloNacos",String.class);
     }
 

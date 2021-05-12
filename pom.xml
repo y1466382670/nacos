@@ -12,6 +12,8 @@
     <modules>
         <module>nacos_provide</module>
         <module>nacos_consumer</module>
+        <module>common</module>
+        <module>nacos_gateway</module>
     </modules>
 
     <properties>
